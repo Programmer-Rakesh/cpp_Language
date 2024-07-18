@@ -31,9 +31,9 @@ int main(){
 
     // Togical Operators :
     cout<<"Following are the logical iperators in c++"<<endl;
-    cout<<"The value of this logical and operator ((a==b) && (a<b)) is :" <<((a==b) &&(a<b))<<endl;
-    cout<<"The value of this logical or operator ((a==b) && (a<b)) is :" <<((a==b) || (a<b))<<endl;
+    cout<<"The value of this logical and operator ((a==b) && (a<b)) is : " <<((a==b) &&(a<b))<<endl;
+    cout<<"The value of this logical or operator ((a==b) || (a<b)) is :  " <<((a==b) || (a<b))<<endl;
+    cout<<"The value of this logical not ope4rator (!(a==b)) is : "<<(!(a==b))<<endl;
     
-
     return 0;
 }
