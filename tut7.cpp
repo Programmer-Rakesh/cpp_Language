@@ -32,10 +32,21 @@ int main(){           // Local variable
 
 // **************Reference Variables***************
 
-    float x = 455;
-    float & y = x;
-    cout<<x<<endl;
-    cout<<y<<endl;
+float x = 455;
+float& y = x;
+cout<<x<<endl;
+cout<<y<<endl;
+
+//****************Typecasting**************** 
+int p = 45;
+float s = 45.46;
+cout<<"The value of p is "<<(float)p<<endl;
+cout<<"The value of s is "<<(int)s<<endl;
+int t = int(y);
+
+cout<<"The expression is "<<p + s<<endl;
+cout<<"The expression is "<<p + int(s)<<endl;     //same
+cout<<"The expression is "<<p + (int)s<<endl;     //same
 
     return 0;
 }
