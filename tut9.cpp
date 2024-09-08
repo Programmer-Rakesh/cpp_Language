@@ -24,20 +24,18 @@ int main(){
     switch (age)
     {
     case 18:
-        /* code */
         cout<<"You are 18";
         break;
     case 22:
-        /* code */
         cout<<"You are 22";
         break;
         case 2:
-        /* code */
         cout<<"You are 2";
         break;
     default:
     cout<<"No special cases"<<endl;
         break;
     }
+    cout<<"Done with switch case";
     return 0;
 }
