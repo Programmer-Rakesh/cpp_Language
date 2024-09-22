@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Ehat is a pointer  ---->  data type which holds the address of other dat types
+// What is a pointer  ---->  data type which holds the address of other data types
 int main(){
     int a=3;
     int* b = &a;
