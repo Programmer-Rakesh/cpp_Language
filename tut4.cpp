@@ -7,6 +7,7 @@ int main(){
     int a = 4, b = 5;
     float pi = 3.14;
     char c = 'd';
+    //double g = 5.5
     bool is_true = true;
     cout <<"This is tutorial 4. \nHere the value of a is "<<a<<". \nThe value of b is "<< b;
     cout << "\nThe value of pi is :"<< pi;
