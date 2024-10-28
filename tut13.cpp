@@ -32,7 +32,7 @@ int main(){
 
     for (int i = 0; i < 4; i++)
     {
-    cout<<"The value of "<<i<<"is :"<<marks[i]<<endl;
+    cout<<"The value of "<< i<<"is :"<<marks[i]<<endl;
     }
 
     // Pointers and arrays
@@ -41,6 +41,9 @@ int main(){
     cout<<"The value of marks[1] is :"<< *(p+1)<<endl;
     cout<<"The value of marks[2] is :"<< *(p+2)<<endl;
     cout<<"The value of marks[3] is :"<< *(p+3)<<endl;
+
+    cout<<*(p++)<<endl;   // It will print marks[0] = 23
+    cout<<*(++p)<<endl;   // It will print marks[2] = 999
 
     return 0;
 }
