@@ -57,38 +57,46 @@ using namespace std;
 //     return 0;
 // }
 
-int c = 60;
+// int c = 60;
+
+// int main(){
+
+//     int a, b, c;
+//     a = 5;
+//     b = 5;
+//     c = a+b;
+//     cout<<::c<<endl;
+//     cout<<d;
+
+//     float d = 34.5f; 
+//     long double e = 64.4l;
+//     cout << "The size of 34.4 is " << sizeof(34.4) << endl;
+//     cout << "The size of 34.4 is " << sizeof(34.4f) << endl;
+//     cout << "The size of 34.4 is " << sizeof(34.4F) << endl;
+//     cout << "The size of 34.4 is " << sizeof(34.4l) << endl;
+//     cout << "The size of 34.4 is " << sizeof(34.4L) << endl;
+
+//     float x = 455;
+//     float& y = x;
+//     cout<<x<<endl;
+//     cout<<y<<endl;
+
+//     int p = 45;
+//     float s = 45.26;
+//     cout<<(float)s<<endl;
+//     cout<<(int)s<<endl;
+
+//     cout<<p + s<<endl;
+//     cout<<p + int(s)<<endl;
+//     cout<<p + (int)s<<endl;
+
+//     return 0;
+// }
 
 int main(){
-
-    // int a, b, c;
-    // a = 5;
-    // b = 5;
-    // c = a+b;
-    // cout<<::c<<endl;
-    // cout<<d;
-
-    // float d = 34.5f; 
-    // long double e = 64.4l;
-    // cout << "The size of 34.4 is " << sizeof(34.4) << endl;
-    // cout << "The size of 34.4 is " << sizeof(34.4f) << endl;
-    // cout << "The size of 34.4 is " << sizeof(34.4F) << endl;
-    // cout << "The size of 34.4 is " << sizeof(34.4l) << endl;
-    // cout << "The size of 34.4 is " << sizeof(34.4L) << endl;
-
-    // float x = 455;
-    // float& y = x;
-    // cout<<x<<endl;
-    // cout<<y<<endl;
-
-    int p = 45;
-    float s = 45.26;
-    // cout<<(float)s<<endl;
-    // cout<<(int)s<<endl;
-
-    cout<<p + s<<endl;
-    cout<<p + int(s)<<endl;
-    cout<<p + (int)s<<endl;
+    int a = 34;
+    char b = 'b';
+    cout<<"The value of b :"<<b<<endl;
 
     return 0;
 }

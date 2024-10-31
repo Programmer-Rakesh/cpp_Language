@@ -24,7 +24,7 @@ int main(){
     cout<<"The value of c without setw is: "<<c<<endl;
     cout<<"The value of d without setw is: "<<d<<endl;
     cout<<"The value of e without setw is: "<<e<<endl;
-                                                                        //See the difference
+    //See the difference
     cout<<"The value of c with setw is: "<<setw(4)<<c<<endl;
     cout<<"The value of d with setw is: "<<setw(4)<<d<<endl;
     cout<<"The value of e with setw is: "<<setw(4)<<e<<endl;
